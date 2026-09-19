@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="./addmision.css">
+</head>
+
+<body>
+    <header>lakshya institute of technology</header>
+
+    <section class="addmision">
+        <aside>
+            <img src="./lakshya_logo.jpg" alt="">
+            <a href="./home.html">Home</a>
+            <a href="./about.html">about</a>
+            <a href="./course.html">courses</a>
+            <a href="">blog</a>
+            <a href="">placement</a>
+            <a href="./addmision.html">Addmision</a>
+            
+        </aside>
+
+        <main>
+
+            <h1>Student Admission Form</h1>
+
+            <form>
+
+                <!-- Student Personal Information -->
+
+                <fieldset>
+
+                    <legend>Student Personal Information</legend>
+
+                    <table>
+
+                        <tr>
+                            <td>
+                                <label for="name">Full Name:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="name" name="name" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="father">Father's Name:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="father" name="father" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="mother">Mother's Name:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="mother" name="mother" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="dob">Date of Birth:</label>
+                            </td>
+
+                            <td>
+                                <input type="date" id="dob" name="dob">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Gender:</label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+
+                            <td>
+                                <input type="email" id="email" name="email">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="phone">Phone Number:</label>
+                            </td>
+
+                            <td>
+                                <input type="tel" id="phone" name="phone">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="address">Address:</label>
+                            </td>
+
+                            <td>
+                                <textarea id="address" name="address"></textarea>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </fieldset>
+
+
+                <!-- Other Details -->
+
+                <fieldset>
+
+                    <legend>Other Details</legend>
+
+                    <table>
+
+                        <tr>
+                            <td>
+                                <label for="nationality">Nationality:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="nationality" name="nationality">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="category">Category:</label>
+                            </td>
+
+                            <td>
+                                <select id="category" name="category">
+                                    <option>General</option>
+                                    <option>OBC</option>
+                                    <option>SC</option>
+                                    <option>ST</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="qualification">Previous Qualification:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" id="qualification" name="qualification">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="marks">Previous Qualification Marks:</label>
+                            </td>
+
+                            <td>
+                                <input type="number" id="marks" name="marks">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="blood">Blood Group:</label>
+                            </td>
+
+                            <td>
+                                <select id="blood" name="blood">
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                    <option>AB+</option>
+                                    <option>AB-</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </fieldset>
+
+
+                <!-- Documents Required -->
+
+                <fieldset>
+
+                    <legend>Documents Required</legend>
+
+                    <table>
+
+                        <tr>
+                            <td>10th Certificate:</td>
+                            <td>
+                                <input type="file" name="tenth_certificate">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>12th Certificate:</td>
+                            <td>
+                                <input type="file" name="twelfth_certificate">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>College Leaving Certificate:</td>
+                            <td>
+                                <input type="file" name="leaving_certificate">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Migration Certificate:</td>
+                            <td>
+                                <input type="file" name="migration_certificate">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Aadhaar Card Photocopy:</td>
+                            <td>
+                                <input type="file" name="aadhaar">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </fieldset>
+
+
+                <!-- Course and Personal Interests -->
+
+                <fieldset>
+
+                    <legend>Course and Personal Interests</legend>
+
+                    <table>
+
+                        <tr>
+                            <td>
+                                <label for="course">Choose Your Course:</label>
+                            </td>
+
+                            <td>
+                                <select id="course" name="course">
+
+                                    <option value="">Select Course</option>
+                                    <option value="bca">BCA</option>
+                                    <option value="itm">ITM</option>
+                                    <option value="bsc_cs">B.Sc Computer Science</option>
+                                    <option value="data_science">Data Science</option>
+
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Hobbies:</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="hobby" value="photography">
+                                Photography
+
+                                <input type="checkbox" name="hobby" value="sports">
+                                Sports
+
+                                <input type="checkbox" name="hobby" value="music">
+                                Music
+
+                                <input type="checkbox" name="hobby" value="coding">
+                                Coding
+
+                                <input type="checkbox" name="hobby" value="reading">
+                                Reading
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="talent">Hobbies and Talents:</label>
+                            </td>
+
+                            <td>
+                                <textarea id="talent" name="talent"
+                                    placeholder="Tell us about your hobbies and talents"></textarea>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </fieldset>
+
+
+                <!-- Schooling and Hostel Facilities -->
+
+                <fieldset>
+
+                    <legend>Schooling and Hostel Facilities</legend>
+
+                    <table>
+
+                        <tr>
+                            <td>
+                                <label>Choose Your Facility:</label>
+                            </td>
+
+                            <td>
+                                <input type="radio" name="facility" value="dayschooling">
+                                Day Schooling
+
+                                <input type="radio" name="facility" value="hostel">
+                                Hostel
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label>Hostel Food Facility:</label>
+                            </td>
+
+                            <td>
+                                <input type="checkbox" name="food" value="breakfast">
+                                Breakfast
+
+                                <input type="checkbox" name="food" value="lunch">
+                                Lunch
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </fieldset> <br>
+
+
+                <!-- Buttons -->
+
+                <button type="submit">Submit Application</button>
+
+                <button type="reset">Reset Form</button>
+
+            </form>
+
+        </main>
+
+    </section>
+
+</body>
+
+</html>
