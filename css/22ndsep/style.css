@@ -1,0 +1,128 @@
+body{
+    margin:0%;
+    background-color:black;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+
+header{
+    height:12vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0% 2%;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+
+.logo h2{
+    color:rgb(60, 150, 200);
+    font-size:large;
+}
+
+
+.logo p{
+    border-left:2px solid white;
+    padding-left:20px;
+}
+
+
+.contact{
+    display:flex;
+    gap:25px;
+    align-items:center;
+}
+
+
+.contact p{
+    color:rgb(80, 160, 210);
+}
+
+
+main{
+    height:88vh;
+    margin:0% 2%;
+    background-image:url("./background.jpeg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+
+.buttons{
+    padding-top:2%;
+}
+
+
+.buttons a{
+    display:inline-block;
+    padding:18px 35px;
+    border-radius:40px;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(60, 170, 220);
+    margin-right:2px;
+    transition:0.5s;
+}
+
+
+.buttons a:hover{
+    background-color:white;
+    color:black;
+    transform:scale(1.05);
+}
+
+
+.content{
+    margin-left:5%;
+    margin-top:18%;
+    width:55%;
+}
+
+
+.content h1{
+    font-size:80px;
+    margin:0%;
+    color: #E63946;
+}
+
+
+.content p{
+    font-size:25px;
+    line-height:1.5;
+    color: #E63946;
+}
+
+
+aside{
+    position:relative;
+    margin-left:85%;
+    margin-top:-30%;
+    width:14%;
+}
+
+
+aside a{
+    display:block;
+    border:2px solid rgb(80,170,220);
+    padding:20px;
+    margin:15px 0%;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    transition:0.5s;
+}
+
+
+aside a:hover{
+    background-color:rgb(80,170,220);
+    color:black;
+    transform:scale(1.05);
+}
