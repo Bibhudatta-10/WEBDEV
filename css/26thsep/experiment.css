@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+}
+
+.navigation{
+    margin-top: 2%;
+    position: relative;
+    width: 200px;
+    height: 250px;
+}
+
+.navigation a{
+    margin: 0;
+    position: absolute;
+    left: 0%;
+
+    margin-left: 1%;
+
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition:0.4s;
+}
+
+.navigation:hover a{
+
+    margin-left:20%;
+    transform:scale(1.1);
+
+}
+
+
+.navigation:hover #a_1{
+    left:5px;
+}
+
+.navigation:hover #a_2{
+    left:160px;
+}
+
+.navigation:hover #a_3{
+    left:310px;
+}
+
+.navigation:hover #a_4{
+    left:470px;
+}
+
+.navigation:hover #a_5{
+    left:650px;
+}
+
