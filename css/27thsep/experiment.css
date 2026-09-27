@@ -1,0 +1,404 @@
+body{
+
+    margin:0%;
+
+    background-color:black;
+
+    color:white;
+
+    font-family:Arial, sans-serif;
+
+}
+
+
+header{
+
+    height:12vh;
+
+    width:96%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0% 2%;
+
+    position:fixed;
+
+    top:0%;
+
+    left:0%;
+
+    z-index:99;
+
+}
+
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+
+.logo img{
+
+    border:1px solid black;
+
+    border-radius:150%;
+
+    height:10vh;
+
+    width:10vh;
+
+}
+
+
+.logo h2{
+
+    color:white;
+
+    font-size:larger;
+
+}
+
+
+.contact{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+
+.contact>nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+
+.contact>nav>a{
+
+    margin-top:6%;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:0.5s;
+
+}
+
+
+.contact>nav>img{
+
+    border:1px solid black;
+
+    border-radius:150%;
+
+    height:10vh;
+
+    width:10vh;
+
+}
+
+
+.contact>nav>a:hover{
+
+    color:rgb(15,99,224);
+
+    transform:scale(1.1);
+
+}
+
+
+main{
+
+    min-height:130vh;
+
+    margin:0% 2%;
+
+    background-image:url("./the lost planet.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    position:relative;
+
+}
+
+
+.content{
+
+    position:absolute;
+
+    margin-left:5%;
+
+    top:15%;
+
+    width:55%;
+
+}
+
+
+.content h1{
+
+    font-size:80px;
+
+    margin:0%;
+
+    margin-left:1.5%;
+
+    color:white;
+
+}
+
+
+.content p{
+
+    font-size:17px;
+
+    line-height:1.5;
+
+    color:white;
+
+}
+
+
+#button_1{
+
+    margin-bottom:2%;
+
+    padding:18px 35px;
+
+    border:0.3px solid rgb(15,99,224);
+
+    border-radius:40px;
+
+    background-color:rgba(0,0,0,0);
+
+    color:white;
+
+    font-size:13px;
+
+    transition:0.5s;
+
+}
+
+
+.content button{
+
+    margin-top:5%;
+
+    padding:18px 35px;
+
+    border:0.7px solid white;
+
+    border-radius:40px;
+
+    background-color:rgba(20,90,300,0.3);
+
+    color:white;
+
+    font-size:16px;
+
+    transition:0.5s;
+
+}
+
+
+.content button:hover{
+
+    background-color:white;
+
+    color:black;
+
+    transform:scale(1.05);
+
+}
+
+
+.mission-button{
+
+    position:relative;
+
+    z-index:5;
+
+}
+
+
+.mission-panel{
+
+    position:absolute;
+
+    left:75%;
+
+    top:10%;
+
+    width:320px;
+
+    padding:25px;
+
+    border:2px solid rgb(15,99,224);
+
+    border-radius:20px;
+
+    background-color:rgba(0,0,0,0.75);
+
+    color:white;
+
+    opacity:0;
+
+    transform:translate(40px,40px) scale(0.7);
+
+    z-index:2;
+
+    transition:0.5s;
+
+}
+
+
+.mission-panel h2{
+
+    color:rgb(15,99,224);
+
+    margin-top:0%;
+
+}
+
+
+.mission-panel p{
+
+    font-size:16px;
+
+    line-height:1.5;
+
+}
+
+
+.mission-button:hover + .mission-panel{
+
+    opacity:1;
+
+    transform:translate(80px,-30px) scale(1);
+
+}
+
+
+.about-movie{
+
+    margin-top:20px;
+
+    width:80%;
+
+}
+
+
+.about-movie h2{
+
+    font-size:30px;
+
+    color:orange;
+
+}
+
+
+.about-movie p{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+    text-align:justify;
+
+}
+
+
+.cast{
+
+    margin-top:50px;
+
+}
+
+
+.cast-cards{
+
+    display:flex;
+
+    gap:50px;
+
+}
+
+
+.cast-card{
+
+    margin-top:10%;
+
+    width:250px;
+
+    padding:15px;
+
+    border:2px solid white;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:0.5s;
+
+}
+
+
+.cast-card img{
+
+    display:flex;
+
+    margin-top:10%;
+
+    width:25%;
+
+    height:40%;
+
+    border-radius:100%;
+
+}
+
+
+.cast-card h3{
+
+    margin-top:0%;
+
+    margin-bottom:10%;
+
+}
+
+
+.cast-card p{
+
+    margin-top:0%;
+
+    margin-left:20%;
+
+    font-size:16px;
+
+}
+
+
+.cast-card:hover{
+
+    background-color:rgba(15,99,224,0.5);
+
+    transform:scale(1.08);
+
+}
