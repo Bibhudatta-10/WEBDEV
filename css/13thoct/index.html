@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+    <style>
+        .loader{
+            border: 2px solid;
+
+            border-radius: 50%;
+
+            border-top: 2px solid white;
+
+            height: 30px;
+
+            width: 30px;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            animation: lit 1s linear infinite ;
+            
+
+        }
+
+        @keyframes lit{
+            from{
+                
+                transform: rotate(0deg);
+            }
+
+            to{
+                
+                transform: rotate(360deg);
+            }
+        }
+        
+
+        .child {
+            border: 2px solid;
+            border-radius: 50%;
+            border-right: 2px solid white;
+            height: 30%;
+            width: 30%;
+            animation: lit2 1s linear infinite;
+        }
+
+        @keyframes lit2{
+            from{
+                transform: rotate(0deg);
+            }
+
+            to{
+                transform: rotate(-720deg);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="child"></div>
+    </div>
+</body>
+</html>
